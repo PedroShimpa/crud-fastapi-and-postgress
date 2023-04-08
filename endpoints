@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CRUDEMFASTAPI",
+    "dateExported": "2023-04-08T22:37:39.892Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cfa6e9ed-fbfa-4952-a1e4-42a25e70bf51",
+            "colId": "4a4796cd-256a-4b2f-b627-f9e7a9a9ef8a",
+            "containerId": "",
+            "name": "VER CLIENTES",
+            "url": "http://127.0.0.1:8000/api/v1/clientes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-08T19:46:12.831Z",
+            "modified": "2023-04-08T21:17:52.112Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "408718de-ce8d-4e38-95b8-4b6f3846e1fb",
+            "colId": "4a4796cd-256a-4b2f-b627-f9e7a9a9ef8a",
+            "containerId": "",
+            "name": "ADICIONAR CLIENTE",
+            "url": "http://127.0.0.1:8000/api/v1/clientes",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-08T19:46:22.542Z",
+            "modified": "2023-04-08T21:24:49.348Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Pedr\",\n  \"email\": \"email@mail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f372cf27-e53c-476e-baaf-a35adc4aacbe",
+            "colId": "4a4796cd-256a-4b2f-b627-f9e7a9a9ef8a",
+            "containerId": "",
+            "name": "VER CLIENTE",
+            "url": "http://127.0.0.1:8000/api/v1/clientes/1",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2023-04-08T20:08:31.356Z",
+            "modified": "2023-04-08T22:37:00.140Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9d0551c4-f81a-48a9-bbb9-90ddc514f5b2",
+            "colId": "4a4796cd-256a-4b2f-b627-f9e7a9a9ef8a",
+            "containerId": "",
+            "name": "EDITAR CLIENTE",
+            "url": "http://127.0.0.1:8000/api/v1/clientes/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-04-08T19:46:42.758Z",
+            "modified": "2023-04-08T22:37:08.666Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Pedro d\",\n  \"email\": \"email@mail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "506895e5-3995-401e-a38c-504e82a71839",
+            "colId": "4a4796cd-256a-4b2f-b627-f9e7a9a9ef8a",
+            "containerId": "",
+            "name": "DELETAR CLIENTE",
+            "url": "http://127.0.0.1:8000/api/v1/clientes/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-04-08T19:46:54.974Z",
+            "modified": "2023-04-08T22:37:18.668Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
